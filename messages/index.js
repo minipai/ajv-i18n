@@ -8,7 +8,7 @@
 
 module.exports = {
   // supported locales
-  _locales: ['en', 'ar', 'cz', 'de', 'es', 'fr', 'hu', 'it', 'ja', 'nb', 'pl', 'pt-BR', 'ru', 'sk', 'sv', 'zh'],
+  _locales: ['en', 'ar', 'cz', 'de', 'es', 'fr', 'hu', 'it', 'ja', 'nb', 'pl', 'pt-BR', 'ru', 'sk', 'sv', 'zh', 'zh-TW'],
 
   // shared defines
   _defs: {

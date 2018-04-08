@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "node scripts/compile-locales.js",
-    "postinstall": "node scripts/compile-locales.js",
+    "postinstall": "npm run build",
     "bundle-all": "npm run browserify && npm run uglify",
     "bundle-test": "npm run browserify-test && npm run uglify-test",
     "browserify": "mkdir -p dist/ && browserify -r ./localize/index -o dist/ajv-i18n.bundle.js",
